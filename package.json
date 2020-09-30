@@ -1,0 +1,11 @@
+{
+   "name": "wasm-rust-boilerplate",
+   "version": "1.0.0",
+   "description": "WASM basic demo using Rust",
+   "scripts": {
+      "build:wasm": "cd src/wasm && wasm-pack build",
+      "start": "cd src && node ../scripts/server.js"
+   },
+   "author": "Pascal Galle",
+   "license": "MIT"
+}
