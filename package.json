@@ -3,6 +3,7 @@
    "version": "1.0.0",
    "description": "WASM basic demo using Rust",
    "scripts": {
+      "first-install": "yarn install && build:wasm",
       "build:wasm": "cd src/wasm && wasm-pack build",
       "start": "cd src && node ../scripts/server.js"
    },
